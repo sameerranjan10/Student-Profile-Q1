@@ -1,0 +1,123 @@
+# ================================
+# Node.js / NPM
+# ================================
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log
+
+# ================================
+# Environment Variables / Secrets
+# ================================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep example environment files
+!.env.example
+
+# ================================
+# React / Build
+# ================================
+
+build/
+dist/
+out/
+
+# ================================
+# Testing / Coverage
+# ================================
+
+coverage/
+.nyc_output/
+*.lcov
+
+# ================================
+# Cache
+# ================================
+
+.cache/
+.parcel-cache/
+.turbo/
+
+# ================================
+# Logs
+# ================================
+
+logs/
+*.log
+
+# ================================
+# Operating System Files
+# ================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ================================
+# IDE / Editors
+# ================================
+
+# VS Code
+.vscode/
+
+# IntelliJ / WebStorm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# Temporary Files
+# ================================
+
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ================================
+# Python (optional)
+# ================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# ================================
+# Database Files
+# ================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# ================================
+# Editor Swap Files
+# ================================
+
+*.swp
+*.swo
